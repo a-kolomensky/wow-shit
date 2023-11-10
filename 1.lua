@@ -193,12 +193,9 @@ function(allstates, event, ...)
 
 
     for n, player in ipairs(unitList) do
-        print(player.id)
-        return;
-        -- return guid -- replace to party1 etc...
+        return player.id;
     end
 
     return 0
-
 
 end
